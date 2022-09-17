@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5Rr8KzCLcEIgsU1L8ZzFZAdDtRCQfAQ9dNksN4QJ4Bk=",
+  "Hash": "NvUmHENK1171PdWVpZr4SByirwph84eT+oCj57+Zm/k=",
   "Source": "Liverpool",
   "BasePath": "_content/Liverpool",
   "Mode": "Default",
@@ -2208,6 +2208,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\thumb_132707_misc_general_1300.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\thumb_132719_misc_general_1300.jpeg",
+      "SourceId": "Liverpool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\",
+      "BasePath": "_content/Liverpool",
+      "RelativePath": "resources/thumb_132719_misc_general_1300.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\thumb_132719_misc_general_1300.jpeg"
     },
     {
       "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\Virgil Van Dijk.html",
