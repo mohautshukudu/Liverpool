@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HOO1kWwFvYX/zrDwO7bopNyLifMC7kbn+LDItoJr4OA=",
+  "Hash": "5Rr8KzCLcEIgsU1L8ZzFZAdDtRCQfAQ9dNksN4QJ4Bk=",
   "Source": "Liverpool",
   "BasePath": "_content/Liverpool",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\resources\\images\\cookie-consent-5.css"
     },
     {
+      "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\images\\logo.jpg",
+      "SourceId": "Liverpool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\",
+      "BasePath": "_content/Liverpool",
+      "RelativePath": "resources/images/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\images\\logo.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\images\\logo.png",
       "SourceId": "Liverpool",
       "SourceType": "Discovered",
@@ -2125,6 +2142,23 @@
       "OriginalItemSpec": "wwwroot\\resources\\liverpoolfc_crest.png"
     },
     {
+      "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\liverpoolfc_crest.svg",
+      "SourceId": "Liverpool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\",
+      "BasePath": "_content/Liverpool",
+      "RelativePath": "resources/liverpoolfc_crest.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\liverpoolfc_crest.svg"
+    },
+    {
       "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\LIverpoolFCMemorabilia1.accdb",
       "SourceId": "Liverpool",
       "SourceType": "Discovered",
@@ -2140,6 +2174,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resources\\LIverpoolFCMemorabilia1.accdb"
+    },
+    {
+      "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\logo.png",
+      "SourceId": "Liverpool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\",
+      "BasePath": "_content/Liverpool",
+      "RelativePath": "resources/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\logo.png"
     },
     {
       "Identity": "C:\\Users\\tshuk\\OneDrive\\Documents\\Growth\\Work\\WebDevelopment\\Liverpool\\Liverpool\\wwwroot\\resources\\thumb_132707_misc_general_1300.jpeg",

@@ -17,6 +17,20 @@ body {
   margin-bottom: 60px;
 }
 
+/*navbar*/
+.nav-logo {
+    display: inline-flex;
+    max-height: auto;
+    max-width: auto;
+}
+
+/*body*/
 .banner {
     background-image: url("../resources/thumb_132707_misc_general_1300.jpeg");
+    height: 25rem;
+    width: 100%;
+}
+
+.welcome-text {
+    padding-top: 1rem;
 }
