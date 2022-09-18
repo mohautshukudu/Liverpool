@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Product5";
+
+    /*This is a list of all memorabilias for site*/
+    List<Product> products = new List<Product>
+    {
+    new Product (1, "Mens' Shirt", "../resources/dm1835-377-1183-crop.jpg", 399, 0, 4, "Men", false),
+    new Product (2, "Womens' Shirt", "../resources/dj7778a_10-copy.jpg", 399, 0, 4, "Men", false),
+    new Product (3, "Mens' Shorts", "../resources/a15612_1.jpg", 500, 0, 5, "Men", false),
+    new Product (4, "Womens' Trousers", "../resources/a21un13_1252_copy.jpg", 500, 0, 0, "Women", false),
+    new Product (5, "Mohamed Salah Collectable", "../resources/a13911_01_copy_1.jpg", 800, 0, 5, "All", true),
+    new Product (6, "LFC Rome 1984 Medal", "../resources/a21co04_1_copy.jpg", 800, 0,4, "All", true),
+    new Product (7, "LFC Signed Squad 21-22 Boxed Away Shirt", "../resources/a16236.jpg", 3000, 0, 5, "All", true),
+    new Product (8, "LFC Signed 22-23 Thiago Boxed Shirt", "../resources/a16320.jpg", 3000, 0, 5, "All", true),
+    new Product (9, "LFC Signed 22-23 Virgil Van Dijk & Matip Framed Shirt", "../resources/a16341.jpg", 4000, 0, 4, "All", true),
+    new Product (10, "LFC Signed Virgil Framed Boot", "../resources/a16359.jpg", 3500, 0, 4, "All", true)
+    };
+
+    int page = 4;
+}
+
+<h1>@products[page].GetName()</h1>
+<div class="container">
+    <div class="row">
+        <div class="col card">
+            <img src="@products[page].GetImg()" class="img-fluid" alt="image of signed boot"/>
+        </div>
+        <div class="col">
+            <div class=row>
+                <h2 class="card-title">@products[page].GetName()</h2>
+                <h3 class="card-text">R @products[page].GetPrice()</h3>
+                @if (products[page].GetStock() == 0)
+                {
+                    <button type="button" class="btn btn-outline-secondary">Add to cart</button>
+                    <span class="badge text-bg-danger">Currently out of stock</span>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-primary btn-lg">Add to cart</button>
+                }
+
+            </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Recommended-->
+        <h1 class="section-heading text-center p-3">Recommended</h1>
+        <div class="container">
+            <div class="row">
+                <!--displays and links 5 products that are featured from list of objects-->
+                @for(int i = 0; i <= 9; i++)
+        {
+            if (products[i].GetFeatured() == true)
+            {
+                        <div class="col">
+                        <div class="card">
+                        <img src="@products[i].GetImg()" class="img-fluid" alt="image of signed boot"/>
+                        <a class="stretched-link text-dark" asp-area="" asp-controller="Home" asp-action="@products[i].SendPage()"> </a>
+                            <div class="card-body">
+                                <h5 class="card-title">@products[i].GetName()</h5>
+                                <h6 class="card-text">R @products[i].GetPrice()</h6>
+                                <button type="button" class="btn btn-outline-secondary">Add to cart</button>
+                            </div>
+                        </div>
+                        </div>
+            }
+        }
+            </div>
+        </div>

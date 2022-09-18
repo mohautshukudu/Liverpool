@@ -6,4 +6,94 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="resources\a13911_01_copy_1.jpg" />
+    <Content Include="resources\a13911_02_copy.jpg" />
+    <Content Include="resources\a13911_03_copy.jpg" />
+    <Content Include="resources\a15612_1.jpg" />
+    <Content Include="resources\a15612_2.jpg" />
+    <Content Include="resources\a16236.jpg" />
+    <Content Include="resources\a16320.jpg" />
+    <Content Include="resources\a16341.jpg" />
+    <Content Include="resources\a16359.jpg" />
+    <Content Include="resources\a21co04_1_copy.jpg" />
+    <Content Include="resources\a21co04_3_copy.jpg" />
+    <Content Include="resources\a21un13_1252_copy.jpg" />
+    <Content Include="resources\a21un13_1254_copy.jpg" />
+    <Content Include="resources\dj7778a_10-copy.jpg" />
+    <Content Include="resources\dm1835-377-1183-crop.jpg" />
+    <Content Include="resources\images\a.html" />
+    <Content Include="resources\images\base.js" />
+    <Content Include="resources\images\cookie-consent-5.css" />
+    <Content Include="resources\images\logo-small.png" />
+    <Content Include="resources\images\logo.jpg" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\images\OtAutoBlock.js" />
+    <Content Include="resources\images\otBannerSdk.js" />
+    <Content Include="resources\images\otSDKStub.js" />
+    <Content Include="resources\images\poweredBy_ot_logo.svg" />
+    <Content Include="resources\images\redbar.png" />
+    <Content Include="resources\images\scripts.min.js" />
+    <Content Include="resources\images\styles.css" />
+    <Content Include="resources\images\thumb_101725_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_108617_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_117132_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_122892_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_125033_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_125053_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_125055_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_126098_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_126188_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_126678_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_129890_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_130378_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_130428_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_132054_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132062_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_132286_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_132294_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_132624_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132644_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132647_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132650_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132653_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132656_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132659_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132662_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132665_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132668_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132671_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132679_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132684_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132687_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132690_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132696_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132699_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132702_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132708_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132711_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132714_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132717_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132720_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132723_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_132758_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_133017_misc_general_500.jpeg" />
+    <Content Include="resources\images\thumb_32543_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_40979_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_73714_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\thumb_91236_partnerlogo_partner_footer.png" />
+    <Content Include="resources\images\v3.football.opta-widgets.css" />
+    <Content Include="resources\images\v3.opta-widgets.js" />
+    <Content Include="resources\liverpoolfc_crest.png" />
+    <Content Include="resources\liverpoolfc_crest.svg" />
+    <Content Include="resources\logo.png" />
+    <Content Include="resources\thumb_132707_misc_general_1300.jpeg" />
+    <Content Include="resources\thumb_132719_misc_general_1300.jpeg" />
+    <Content Include="resources\Virgil Van Dijk.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.9" />
+  </ItemGroup>
+
 </Project>

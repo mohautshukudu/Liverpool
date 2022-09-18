@@ -2,16 +2,16 @@
 {
     public class Product
     {
-        private int id { get; set; }
-        private string name { get; set; }
-        private string img { get; set; }
-        private double price { get; set; }
-        private int stock { get; set; }
-        private int stars { get; set; }
-        private string gender { get; set; }
-        private string featured { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string img { get; set; }
+        public double price { get; set; }
+        public int stock { get; set; }
+        public int stars { get; set; }
+        public string gender { get; set; }
+        public bool featured { get; set; }
 
-        public Product(int id, string name, string img, double price, int stock, int stars, string gender, string featured)
+        public Product(int id, string name, string img, double price, int stock, int stars, string gender, bool featured)
         {
             this.id = id;
             this.name = name;
@@ -22,5 +22,51 @@
             this.gender = gender;
             this.featured = featured;
         }
+
+        public int GetId()
+        {
+            return id;
+        }
+
+        public string GetName()
+        {
+            return name;
+        }
+
+        public string GetImg()
+        {
+            return img;
+        }
+
+        public double GetPrice()
+        {
+            return price;
+        }
+
+        public int GetStock()
+        {
+            return stock;
+        }
+
+        public int GetStars()
+        {
+            return stars;
+        }
+
+        public string GetGender()
+        {
+            return gender;
+        }
+
+        public bool GetFeatured()
+        {
+            return featured;
+        }
+
+        public string SendPage()
+        {
+            return "Product" + id;
+        }
     }
+    
 }

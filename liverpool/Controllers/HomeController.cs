@@ -18,7 +18,62 @@ namespace Liverpool.Controllers
             return View();
         }
 
+        public IActionResult Memorabilia()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Product1()
+        {
+            return View();
+        }
+
+        public IActionResult Product2()
+        {
+            return View();
+        }
+
+        public IActionResult Product3()
+        {
+            return View();
+        }
+
+        public IActionResult Product4()
+        {
+            return View();
+        }
+
+        public IActionResult Product5()
+        {
+            return View();
+        }
+
+        public IActionResult Product6()
+        {
+            return View();
+        }
+
+        public IActionResult Product7()
+        {
+            return View();
+        }
+
+        public IActionResult Product8()
+        {
+            return View();
+        }
+
+        public IActionResult Product9()
+        {
+            return View();
+        }
+
+        public IActionResult Product10()
         {
             return View();
         }

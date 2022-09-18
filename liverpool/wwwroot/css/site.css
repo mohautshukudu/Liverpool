@@ -56,3 +56,13 @@ body {
 .banner-p {
     color: ghostwhite;
 }
+
+
+/*Sections*/
+
+
+.section-heading {
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-align: left;
+}
